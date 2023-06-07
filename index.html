@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kevin Rizabal</title>
 </head>
 
@@ -21,23 +22,37 @@
        
          <div class="container-fluid">
           <div class="row">
-            <div class="col-md-3 col-lg-2 sidebar">
+            <div class="col-12 col-md-3 col-lg-2 sidebar">
               <div class="perfil">
                 <img src="img/perfil.png" alt="" style="width: 220px; height: 300px;">
               </div>
+              
               <br>
+        
               <ul>
+             
                 <li class="botones"><a href="#">INICIO</a></li>
                 <li class="botones"><a href="#">ACERCA DE</a></li>
                 <li class="botones"><a href="#">SERVICIOS</a></li>
                 <li class="botones"><a href="#">CONTACTANOS</a></li>
+               
               </ul>
             </div>
              
                        
-              <div class="col-md-9 col-lg-10">
+              <div class="col-12 col-md-9 col-lg-10">
 <div class="container">
+  <input type="button" id="buttona" value="Descarga mi CV" class="fw-light cv fs-5 btn btn-primary">
+  <br>
   
+  <a href="https://git.io/typing-svg" class="text-start fw-bold">
+    <span >
+  <img src="https://readme-typing-svg.demolab.com/?font=Roboto+Mono&duration=6000&pause=5000&color=FC7A24&width=500&lines=En+camino+a+ser+un+desarrollador+web" alt="">
+    </span>
+   
+   </a>
+  
+
 <p>
 <span class="text-start fw-bold col1">Kevin </span>
    <span class=" text-start fw-bold col2">Rizabal</span>
@@ -59,7 +74,7 @@
 <div id="carouselExampleInterval" class="carousel slide carrusel-top" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="2000">
-        <img src="img/boostrap.png"  class="rounded mx-auto d-block img-thumbnail img-fluid w-20" alt="">
+        <img src="img/boostrap.png"  class="rounded mx-auto d-block img-thumbnail img-fluid w-25" alt="">
       </div>
       <div class="carousel-item" data-bs-interval="2000">
         <img src="img/netbeans.jpg" class="rounded mx-auto d-block img-thumbnail img-fluid w-25" alt="...">
@@ -88,9 +103,20 @@
 
 
 
+<script>
+ document.addEventListener('DOMContentLoaded', function() {
+  var button = document.querySelector('.cv');
 
+  button.addEventListener('click', function() {
+    button.classList.add('clicked');
+  });
 
-
+  button.addEventListener('blur', function() {
+    button.classList.remove('clicked');
+  });
+});
+ 
+</script>
 
 
  <script src="js/bootstrap.min.js"></script>   

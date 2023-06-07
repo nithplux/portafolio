@@ -1,14 +1,64 @@
 .bg-custom-color-background{
 
-    background-color: #702CF5;
+    background-color: #261D45;
 
 }
 .col1{
 
     color: #00FF00;
     font-size: 60px;
+    
 }
 .col2{
     color:#FFA500;
     font-size: 60px;
+    
 }
+.container{
+    margin-top: 14%;
+    text-align: left;
+}
+
+.carrusel-top{
+    
+    margin-top: 10%;
+
+}
+.perfil {
+    text-align: center;
+    margin-top: 60%;
+  }
+  .sidebar{
+    background-color: #372963;
+    height: 100vh;
+  }
+
+
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+   
+  }
+
+.botones{
+    text-align: center;
+
+}
+
+  .botones a{
+ 
+    font: bold 90% monospace;
+    font-size: 20px;
+    transition: color 0.3s;
+    text-decoration: none;
+    
+  }
+  .botones a:hover{
+    color: red;
+    
+  }
+  

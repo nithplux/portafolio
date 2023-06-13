@@ -1,0 +1,10 @@
+$ git pull origin pc --> actualizar archivos de pc a master por ejemplo
+
+git pull --> actualizar archivos
+git fetch -->actualizar configuraciones
+git branch -->listar las ramas
+git checkout -b "nombre de la rama" -->crear rama y seleccionarla
+git log -->para visualizar los movimientos y modificaciones que hicieron los usuarios
+git add --> enviar tus archivos modificados o creados para tu stage area
+git push -u origin "nombre de la rama"-->para actualizar los archivos modificados o agregar nuevos o se actualizan remotamente las ramas
+git commit -m "texto que desees version 1...."

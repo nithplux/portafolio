@@ -1,5 +1,4 @@
-$ git pull origin pc --> actualizar archivos de pc a master por ejemplo
-
+git pull origin pc --> actualizar archivos de pc a master por ejemplo
 git pull --> actualizar archivos
 git fetch -->actualizar configuraciones
 git branch -->listar las ramas
